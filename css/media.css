@@ -1,0 +1,53 @@
+@media (max-aspect-ratio: 3/2) {
+    .images-parallax__human {
+        background-position: 20% top;
+    }
+}
+
+@media (max-width: 767px) {
+    .parallax__title {
+        font-size: 50px;
+    }
+
+    .parallax__label {
+        font-size: 16px;
+        margin: 0 0 15px 0;
+    }
+}
+
+@media (max-width: 479px) {
+    .parallax__title {
+        font-size: 36px;
+    }
+
+    .parallax__label::before {
+        flex: 0 0 50px;
+        margin: 0 10px 0 0;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .orange-line__text p {
+        font-size: 12px;
+    }
+
+    .orange-line__text2 p {
+        font-size: 12px;
+    }
+
+    .list__item li {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .orange-line {
+        height: 200px;
+    }
+
+    .list__item li {
+        font-size: 12px;
+    }
+}
